@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Logs
+logs
+*.log
+*.log.*
+
+
+# Optional npm cache directory
+.npm
+
+# Dist folder
+dist/
+build/
+
+# IDE or Editor-specific files
+.vscode/
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Project lock files
+package-lock.json
+
+# Parcel cache
+.cache/
+
+# Local testing
+testing/
+db.json
+scripts/
