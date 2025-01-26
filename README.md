@@ -4,6 +4,8 @@ This repo contains the source code for the [https://www.hmcardle.com](https://ww
 
 ## Architecture
 
+**NOTE**: A deep dive into the architecture and design of this website and associated backend infrastructure can be found in the [on this blog post](https://www.hmcardle.com/posts/5640825748848640).
+
 The overall architecture of this setup is far too complex for a simple static website, however it serves as a good testing grounds for all things cloud and kubernetes. There are two separate environments for this.
 
 ### Frontend
@@ -26,10 +28,10 @@ The Cloud Run Function proceeds to read blogs from GCP Datastore, a simpler vers
 
 ```json
 {
-  "title": "string", // The title of the blog post
-  "description": "string", // A short description of the blog post
-  "date": "string", // The date the blog post was published
-  "content": "string", // A link to an object in GCP Storage containing the blog post content
+  "title": "string", # The title of the blog post
+  "description": "string", # A short description of the blog post
+  "date": "string", # The date the blog post was published
+  "content": "string", # A link to an object in GCP Storage containing the blog post content
 }
 ```
 
